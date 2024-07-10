@@ -48,7 +48,7 @@ nav button{
     margin-right: 150px;
     cursor: pointer;
 }
-.hero{
+ .hero{
     background-image: url(assets/Hero-bg.png);
     background-size: cover;
     border: 2px solid rgb(207, 207, 207);

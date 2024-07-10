@@ -48,12 +48,16 @@ nav button{
     margin-right: 150px;
     cursor: pointer;
 }
- .hero{
+nav a{
+    text-decoration-line:none ;
+}
+
+.hero{
     background-image: url(assets/Hero-bg.png);
     background-size: cover;
     border: 2px solid rgb(207, 207, 207);
     border-style: dashed;
-    width: 1920px;
+    width: 100%;
     height: 867.16px;
     margin-bottom: 74px;
 }
@@ -408,6 +412,131 @@ nav button{
     text-decoration-line: underline;
 }
 
+/* Next target section */
+
+.n-target{
+    width: 1516.2px;
+    height: 1151.78px;
+    margin: 0 auto;
+    margin-top: 150px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.n-target>h1{
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 42.56px;
+    font-weight: 800;
+    line-height: 37px;
+    letter-spacing: 0%;
+    text-align: center;
+    margin-top: 30px;
+}
+.n-target>p{
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 21.28px;
+    font-weight: 400;
+    line-height: 26px;
+    letter-spacing: 0%;
+    text-align: center;
+    opacity: 0.7;
+    margin-bottom: 48px;
+}
+.n-target>.fw{
+    width: 1516.2px;
+    height: 937.65px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+.n-target>.fw>.reactjs{
+    width: 95%;
+    height: 219px;
+    border-radius: 16px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 40px;
+    border: 1px solid rgba(13, 19, 33, 0.15);
+}
+.n-target>.fw>.nodejs{
+    width: 95%;
+    height: 219px;
+    border-radius: 16px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 40px;
+    border: 1px solid rgba(13, 19, 33, 0.15);
+}
+.n-target>.fw>.mongodb{
+    width: 95%;
+    height: 219px;
+    border-radius: 16px;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 40px;
+    border: 1px solid rgba(13, 19, 33, 0.15);
+}
+.reactjs img{
+    width: 108px;
+    height: 108px;
+    margin-right: 80px;
+    margin-left: 40px;
+}
+.nodejs img{
+    width: 143.3px;
+    height: 87.75px;
+    margin-right: 55px;
+    margin-left: 40px;
+}
+.mongodb img{
+    width: 108px;
+    height: 108px;
+    margin-right: 80px;
+    margin-left: 40px;
+}
+.description{
+    width: 892.49px;
+    height: 179px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.description h2{
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 31.92px;
+    font-weight: 800;
+    line-height: 36px;
+    letter-spacing: 0%;
+    text-align: left;
+    margin-bottom: 8px;
+}
+.description p{
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size:21.28px;
+    font-weight: 400;
+    line-height: 26px;
+    letter-spacing: 0%;
+    text-align: left;
+    margin-bottom: 24px;
+}
+.description h4{    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 21.28px;
+    font-weight: 700;
+    line-height: 19px;
+    letter-spacing: 0%;
+    text-align: left;
+    text-decoration-line: underline;}
+
 /* Support section */
 .support{
     width: 1388.52px;
@@ -421,6 +550,7 @@ nav button{
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    margin-top: 100px;
 }
 .support>.title h1{
     color: rgb(255, 255, 255);
@@ -484,11 +614,11 @@ nav button{
 
 /* Footer section */
 .footer{
-    width:1920px ;
+    width:100%;
     height: 133px;
     border-radius: 16px;
     background: rgba(13, 19, 33, 0.03);
-    margin-top: 80px;
+    margin-top: 100px;
     display: flex;
     justify-content: center;
     align-items: center;

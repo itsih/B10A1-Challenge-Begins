@@ -481,3 +481,36 @@ nav button{
     border: none;
     cursor: pointer;
 }
+
+/* Footer section */
+.footer{
+    width:1920px ;
+    height: 133px;
+    border-radius: 16px;
+    background: rgba(13, 19, 33, 0.03);
+    margin-top: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.footer-container{
+    width: 1516.2px;
+    height: 47.88px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 auto;
+}
+.footer-container h4{
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 26.6px;
+    font-weight: 600;
+    line-height: 23px;
+    letter-spacing: 0%;
+    text-align: center;
+}
+.footer-container>.imgs{
+    display: flex;
+    gap: 20px;
+}
